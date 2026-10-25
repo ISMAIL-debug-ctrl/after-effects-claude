@@ -7,15 +7,23 @@ A one-step setup by **Ismail — [ISMAILX](https://ismailx.com)** that lets **Cl
 Watch how it works: https://youtube.com/shorts/u-hCINgRz-0
 
 ## What you need
-- A Mac with **After Effects 2022 or newer**
+- A **Mac or Windows** computer with **After Effects 2022 or newer**
 - **Node.js** ([nodejs.org](https://nodejs.org))
 - The **Claude** desktop app
 
 ## Install (once)
-1. Download this repo (green **Code** button → **Download ZIP**) and unzip it.
-2. Open Terminal, type `bash ` (with a space), drag `install.sh` onto the Terminal window, and press Enter.
-3. It asks for your **Mac password** to copy the panel into the After Effects folder.
-4. Quit the Claude app and open it again.
+First, download this repo (green **Code** button → **Download ZIP**) and unzip it.
+
+### Mac
+1. Open Terminal, type `bash ` (with a space), drag `install.sh` onto the Terminal window, and press Enter.
+2. It asks for your **Mac password** to copy the panel into the After Effects folder.
+3. Quit the Claude app and open it again.
+
+### Windows
+1. Double-click `install.cmd` inside the unzipped folder.
+2. If Windows shows **"Windows protected your PC"**, click **More info** → **Run anyway**.
+3. When Windows asks for permission to make changes, click **Yes** (it copies the panel into the After Effects folder).
+4. Quit the Claude app fully (also from the system tray next to the clock) and open it again.
 
 The script does three things:
 - builds the tool,
@@ -23,7 +31,7 @@ The script does three things:
 - adds the tool to Claude's settings (and backs up your old settings first).
 
 ## After Effects settings (once)
-1. Go to **Settings > Scripting & Expressions** and enable **Allow Scripts to Write Files and Access Network**.
+1. Open **Scripting & Expressions** settings (Mac: **After Effects > Settings**, Windows: **Edit > Preferences**) and enable **Allow Scripts to Write Files and Access Network**.
 2. Open **Window > mcp-bridge-auto.jsx** and turn on **Auto-run commands**.
    In AE 2025 and newer the panel opens as a floating window and doesn't dock. That's normal.
 
@@ -56,15 +64,23 @@ Built on the open-source **[Dakkshin/after-effects-mcp](https://github.com/Dakks
 شوف كيف يشتغل: https://youtube.com/shorts/u-hCINgRz-0
 
 ## وش تحتاج
-- ماك عليه **After Effects 2022 أو أحدث**
+- **ماك أو ويندوز** عليه **After Effects 2022 أو أحدث**
 - **Node.js** (نزّله من [nodejs.org](https://nodejs.org))
 - تطبيق **Claude** للديسكتوب
 
 ## التركيب (مرة وحدة)
-1. نزّل هالمستودع (الزر الأخضر **Code** ← **Download ZIP**) وفك الضغط.
-2. افتح التيرمنال، واكتب `bash ` (وبعدها مسافة)، واسحب ملف `install.sh` على نافذة التيرمنال، واضغط Enter.
-3. بيطلب منك **باسورد الماك** عشان ينسخ البانل داخل مجلد After Effects.
-4. سكّر تطبيق Claude وافتحه من جديد.
+أول شي، نزّل هالمستودع (الزر الأخضر **Code** ← **Download ZIP**) وفك الضغط.
+
+### ماك
+1. افتح التيرمنال، واكتب `bash ` (وبعدها مسافة)، واسحب ملف `install.sh` على نافذة التيرمنال، واضغط Enter.
+2. بيطلب منك **باسورد الماك** عشان ينسخ البانل داخل مجلد After Effects.
+3. سكّر تطبيق Claude وافتحه من جديد.
+
+### ويندوز
+1. دبل كليك على ملف `install.cmd` داخل المجلد اللي فكيته.
+2. إذا طلعت لك رسالة **"Windows protected your PC"**، اضغط **More info** ← **Run anyway**.
+3. لما يسألك الويندوز تسمح بالتغييرات، اضغط **Yes** (عشان ينسخ البانل داخل مجلد After Effects).
+4. سكّر تطبيق Claude كامل (حتى من الأيقونة اللي جنب الساعة تحت) وافتحه من جديد.
 
 السكربت يسوي ثلاث أشياء:
 - يجهّز الأداة.
@@ -72,7 +88,7 @@ Built on the open-source **[Dakkshin/after-effects-mcp](https://github.com/Dakks
 - يضيف الأداة لإعدادات Claude، ويسوي نسخة احتياطية من إعداداتك القديمة.
 
 ## إعدادات After Effects (مرة وحدة)
-1. روح **Settings > Scripting & Expressions** وفعّل **Allow Scripts to Write Files and Access Network**.
+1. افتح إعدادات **Scripting & Expressions** (في الماك: **After Effects > Settings**، وفي الويندوز: **Edit > Preferences**) وفعّل **Allow Scripts to Write Files and Access Network**.
 2. افتح **Window > mcp-bridge-auto.jsx** وفعّل **Auto-run commands**.
    في أفتر 2025 وأحدث، البانل يشتغل كنافذة عائمة وما يتثبت داخل الواجهة. هذا طبيعي.
 
