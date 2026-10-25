@@ -13,7 +13,7 @@ Watch how it works: https://youtube.com/shorts/u-hCINgRz-0
 
 ## Install (once)
 1. Download this repo (green **Code** button → **Download ZIP**) and unzip it.
-2. Open Terminal, drag `install.sh` onto it, and press Enter.
+2. Open Terminal, type `bash ` (with a space), drag `install.sh` onto the Terminal window, and press Enter.
 3. It asks for your **Mac password** to copy the panel into the After Effects folder.
 4. Quit the Claude app and open it again.
 
@@ -62,7 +62,7 @@ Built on the open-source **[Dakkshin/after-effects-mcp](https://github.com/Dakks
 
 ## التركيب (مرة وحدة)
 1. نزّل هالمستودع (الزر الأخضر **Code** ← **Download ZIP**) وفك الضغط.
-2. افتح التيرمنال، واسحب ملف `install.sh` عليه، واضغط Enter.
+2. افتح التيرمنال، واكتب `bash ` (وبعدها مسافة)، واسحب ملف `install.sh` على نافذة التيرمنال، واضغط Enter.
 3. بيطلب منك **باسورد الماك** عشان ينسخ البانل داخل مجلد After Effects.
 4. سكّر تطبيق Claude وافتحه من جديد.
 
